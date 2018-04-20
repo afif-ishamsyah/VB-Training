@@ -1,0 +1,14 @@
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\bin\Release\Interface Training.exe.config
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\bin\Release\Interface Training.exe
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\bin\Release\Interface Training.pdb
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\bin\Release\Interface Training.xml
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\bin\Release\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.vbprojResolveAssemblyReference.cache
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface_Training.Form1.resources
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface_Training.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.exe
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.xml
+C:\Users\SupportIT\Documents\VB Training\Interface Training\Interface Training\obj\Release\Interface Training.pdb
