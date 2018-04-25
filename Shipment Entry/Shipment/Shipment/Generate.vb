@@ -9,13 +9,21 @@ Public Class Generate
     Dim Username As String
     Dim Password As String
     Dim Database As String
+    Dim ShipmentLocation As String
+    Dim SuccessLocation As String
+    Dim ErrorLocation As String
+    Dim LogErrorLocation As String
 
     Public Sub LoadCsv()
-        Dim folder = "C:\Users\SupportIT\Documents\Order Entry\Ongoing"
+
+        LoadFile()
+
+
+        Dim folder = ShipmentLocation
         Dim CnStr = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & folder & ";Extended Properties=""text;HDR=Yes;FMT=Delimited(,)"";"
 
         Try
-            Dim fileEntries As String() = Directory.GetFiles("C:\Users\SupportIT\Documents\Order Entry\Ongoing")
+            Dim fileEntries As String() = Directory.GetFiles(ShipmentLocation)
             filename = Path.GetFileName(fileEntries(0)) 'Get first file in the folder
             Using Adp As New OleDbDataAdapter("select * from [" + filename + "]", CnStr)
                 Adp.Fill(dt) 'Insert CSV data to Datatable, CSV header excluded because in CnStr, HDR=Yes
@@ -23,7 +31,7 @@ Public Class Generate
                 dt.Clear()   'Clear Datatable
             End Using
             'If Insert to Sage success, move file Completed Folder
-            File.Move("C:\Users\SupportIT\Documents\Order Entry\Ongoing\" + filename, "C:\Users\SupportIT\Documents\Order Entry\Completed\" + filename)
+            File.Move(ShipmentLocation + "\" + filename, SuccessLocation + "\" + filename)
         Catch e As OleDbException 'Handle connection error in SendtoSage()
         Catch e As FileNotFoundException 'Handle when Folder is empty
         Catch e As IndexOutOfRangeException 'Handle when filename is already moved because of an error in Sendtosage() (look at SendtoSage exception)
@@ -35,8 +43,6 @@ Public Class Generate
     Public Sub SendtoSage()
         Dim session As Session
         Dim mDBLinkCmpRW As DBLink
-
-        LoadFile()
 
         'Create new session
         session = New Session()
@@ -119,7 +125,7 @@ Public Class Generate
             'Handle error is Datatable fail to be inserted to Sage, move the errored CSV file, and create an error log 
         Catch e As Runtime.InteropServices.COMException
             Dim errors As List(Of String) = New List(Of String)
-            Dim files As FileStream = File.Create("C:\Users\SupportIT\Documents\Order Entry\ErrorLog\" + filename + ".txt")
+            Dim files As FileStream = File.Create(LogErrorLocation + "\" + filename + ".txt")
             files.Close()
 
             For k As Integer = 0 To session.Errors.Count() - 1
@@ -129,8 +135,8 @@ Public Class Generate
             Dim errorMessage As String = String.Join(" ", errors)
 
 
-            My.Computer.FileSystem.WriteAllText("C:\Users\SupportIT\Documents\Order Entry\ErrorLog\" + filename + ".txt", errorMessage, True)
-            File.Move("C:\Users\SupportIT\Documents\Order Entry\Ongoing\" + filename, "C:\Users\SupportIT\Documents\Order Entry\ErrorFile\" + filename)
+            My.Computer.FileSystem.WriteAllText(LogErrorLocation + "\" + filename + ".txt", errorMessage, True)
+            File.Move(ShipmentLocation + "\" + filename, ErrorLocation + "\" + filename)
             session.Errors.Clear()
 
 
@@ -139,7 +145,7 @@ Public Class Generate
 
     Public Sub LoadFile()
 
-        Dim fileload As String = "C:\Users\SupportIT\Documents\C# Training\Database Setup\Database Setup\DatabaseSetup.txt"
+        Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Save\DatabaseSetup.txt"
         Dim lines() As String
         Dim loadedLines() As String = File.ReadAllLines(fileload)
 
@@ -161,6 +167,30 @@ Public Class Generate
         lines = New String(n) {}
         Array.Copy(loadedLines, (index + 1), lines, 0, n)
         Database = lines(n - 1)
+
+        index = (index + 2)
+        n = Integer.Parse(loadedLines(index))
+        lines = New String(n) {}
+        Array.Copy(loadedLines, (index + 1), lines, 0, n)
+        ShipmentLocation = lines(n - 1)
+
+        index = (index + 2)
+        n = Integer.Parse(loadedLines(index))
+        lines = New String(n) {}
+        Array.Copy(loadedLines, (index + 1), lines, 0, n)
+        SuccessLocation = lines(n - 1)
+
+        index = (index + 2)
+        n = Integer.Parse(loadedLines(index))
+        lines = New String(n) {}
+        Array.Copy(loadedLines, (index + 1), lines, 0, n)
+        ErrorLocation = lines(n - 1)
+
+        index = (index + 2)
+        n = Integer.Parse(loadedLines(index))
+        lines = New String(n) {}
+        Array.Copy(loadedLines, (index + 1), lines, 0, n)
+        LogErrorLocation = lines(n - 1)
 
 
 
