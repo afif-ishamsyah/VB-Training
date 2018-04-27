@@ -16,3 +16,16 @@ C:\Users\SupportIT\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\De
 C:\Users\SupportIT\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.exe
 C:\Users\SupportIT\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.xml
 C:\Users\SupportIT\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.pdb
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\bin\Debug\Shipment.exe.config
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\bin\Debug\Shipment.exe
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\bin\Debug\Shipment.pdb
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\bin\Debug\Shipment.xml
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.vbprojResolveAssemblyReference.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.Form1.resources
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.Resources.resources
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.vbproj.GenerateResource.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.vbproj.CoreCompileInputs.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.vbproj.CopyComplete
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.exe
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.xml
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry\Shipment\Shipment\obj\Debug\Shipment.pdb

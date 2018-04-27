@@ -18,6 +18,11 @@ Public Class Generate
 
         LoadFile()
 
+        'Check if  all required folder is exist
+        If Directory.Exists(ShipmentLocation) = False Or Directory.Exists(SuccessLocation) = False Or Directory.Exists(ErrorLocation) = False Or Directory.Exists(LogErrorLocation) = False Then
+            MessageBox.Show("Please configure Database Setup first, and make sure all required folder is exist", "Folder Not Found")
+            End
+        End If
 
         Dim folder = ShipmentLocation
         Dim CnStr = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & folder & ";Extended Properties=""text;HDR=Yes;FMT=Delimited(,)"";"
@@ -35,18 +40,20 @@ Public Class Generate
         Catch e As OleDbException 'Handle connection error in SendtoSage()
         Catch e As FileNotFoundException 'Handle when Folder is empty
         Catch e As IndexOutOfRangeException 'Handle when filename is already moved because of an error in Sendtosage() (look at SendtoSage exception)
+        Catch e As DirectoryNotFoundException
+            MessageBox.Show("Please configure Database Setup first, and make sure all required folder is exist", "Folder Not Found")
         End Try
 
-        Form1.Close()
+        End
     End Sub
 
-    Public Sub SendtoSage()
+    Private Sub SendtoSage()
         Dim session As Session
         Dim mDBLinkCmpRW As DBLink
 
         'Create new session
         session = New Session()
-        session.Init("", "XY", "XY1000", "63A") 'first 3 parameter is always like that i dont know why, 4th parameter is Sage Version
+        session.Init("", "XX", "XX1000", "63A") 'first 3 parameter is always like that i dont know why, 4th parameter is Sage Version
         session.Open(Username, Password, Database, DateTime.Today, 0) 'Password and Username must be in UPPERCASE
         mDBLinkCmpRW = session.OpenDBLink(DBLinkType.Company, DBLinkFlags.ReadWrite)
         Try
@@ -111,11 +118,11 @@ Public Class Generate
             If dt.Rows.Count > 0 Then
                 For i As Integer = 0 To dt.Rows.Count - 1
                     OESHI1detail1.RecordCreate(ViewRecordCreate.NoInsert)
-                    OESHI1detail1.Fields.FieldByName("ITEM").SetValue(dt.Rows(i)(7), False)
-                    OESHI1detail1.Fields.FieldByName("LOCATION").SetValue(dt.Rows(i)(8), False)
-                    OESHI1detail1.Fields.FieldByName("QTYSHIPPED").SetValue(dt.Rows(i)(9), False)
-                    OESHI1detail1.Fields.FieldByName("PRIUNTPRC").SetValue(dt.Rows(i)(11), False)
-                    OESHI1detail1.Fields.FieldByName("SHIUNIT").SetValue(dt.Rows(i)(10), False)
+                    OESHI1detail1.Fields.FieldByName("ITEM").SetValue(dt.Rows(i)(6), False)
+                    OESHI1detail1.Fields.FieldByName("LOCATION").SetValue(dt.Rows(i)(7), False)
+                    OESHI1detail1.Fields.FieldByName("QTYSHIPPED").SetValue(dt.Rows(i)(8), False)
+                    OESHI1detail1.Fields.FieldByName("PRIUNTPRC").SetValue(dt.Rows(i)(10), False)
+                    OESHI1detail1.Fields.FieldByName("SHIUNIT").SetValue(dt.Rows(i)(9), False)
                     OESHI1detail1.Insert()
                 Next
             End If
@@ -138,61 +145,68 @@ Public Class Generate
             My.Computer.FileSystem.WriteAllText(LogErrorLocation + "\" + filename + ".txt", errorMessage, True)
             File.Move(ShipmentLocation + "\" + filename, ErrorLocation + "\" + filename)
             session.Errors.Clear()
-
-
         End Try
     End Sub
 
-    Public Sub LoadFile()
+    Private Sub LoadFile()
 
-        Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Save\DatabaseSetup.txt"
-        Dim lines() As String
-        Dim loadedLines() As String = File.ReadAllLines(fileload)
+        Try
+            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Save\DatabaseSetup.txt"
+            Dim lines() As String
+            Dim loadedLines() As String = File.ReadAllLines(fileload)
 
-        Dim index As Integer = 0
+            Dim index As Integer = 0
 
-        Dim n As Integer = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        Username = lines(n - 1)
+            Dim n As Integer = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            Username = lines(n - 1)
 
-        index = (index + 2)
-        n = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        Password = lines(n - 1)
+            index = (index + 2)
+            n = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            Password = lines(n - 1)
 
-        index = (index + 2)
-        n = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        Database = lines(n - 1)
+            index = (index + 2)
+            n = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            Database = lines(n - 1)
 
-        index = (index + 2)
-        n = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        ShipmentLocation = lines(n - 1)
+            index = (index + 2)
+            n = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            ShipmentLocation = lines(n - 1)
 
-        index = (index + 2)
-        n = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        SuccessLocation = lines(n - 1)
+            index = (index + 2)
+            n = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            SuccessLocation = lines(n - 1)
 
-        index = (index + 2)
-        n = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        ErrorLocation = lines(n - 1)
+            index = (index + 2)
+            n = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            ErrorLocation = lines(n - 1)
 
-        index = (index + 2)
-        n = Integer.Parse(loadedLines(index))
-        lines = New String(n) {}
-        Array.Copy(loadedLines, (index + 1), lines, 0, n)
-        LogErrorLocation = lines(n - 1)
+            index = (index + 2)
+            n = Integer.Parse(loadedLines(index))
+            lines = New String(n) {}
+            Array.Copy(loadedLines, (index + 1), lines, 0, n)
+            LogErrorLocation = lines(n - 1)
 
-
-
+        Catch e As DirectoryNotFoundException
+            MessageBox.Show("Please configure Database Setup first, and make sure all required folder is exist", "Folder Not Found")
+            End
+        Catch e As ArgumentException
+            MessageBox.Show("Save file from Database Setup is corrupted", "File Error")
+            End
+        Catch e As IndexOutOfRangeException
+            MessageBox.Show("Save file from Database Setup is corrupted", "File Error")
+            End
+        End Try
     End Sub
 End Class
