@@ -1,0 +1,12 @@
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.exe.config
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.exe
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.pdb
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.xml
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.Form1.resources
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.Resources.resources
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbproj.GenerateResource.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbproj.CoreCompileInputs.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbproj.CopyComplete
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.exe
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.xml
+C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.pdb
