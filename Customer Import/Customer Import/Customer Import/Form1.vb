@@ -13,8 +13,14 @@ Public Class FileLabel
     End Sub
 
     Private Sub UploadButton_Click(sender As Object, e As EventArgs) Handles UploadButton.Click
-        LoadingLabel.Visible = True
-        SenDatoSage(FileExcel)
+        Dim extension As String = Path.GetExtension(FileExcel)
+        If extension = ".xlsx" Or extension = ".xls" Then
+            LoadingLabel.Visible = True
+            SenDatoSage(FileExcel)
+        Else
+            MsgBox("File must be a Microsoft Excel file (.xlsx or .xls)", 0, "Wrong File Type")
+        End If
+
     End Sub
 
     Private Sub SearchButton_Click(sender As Object, e As EventArgs) Handles SearchButton.Click

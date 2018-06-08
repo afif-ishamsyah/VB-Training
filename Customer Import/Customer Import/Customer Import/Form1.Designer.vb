@@ -85,12 +85,12 @@ Partial Class FileLabel
         '
         Me.LoadingLabel.AutoSize = True
         Me.LoadingLabel.BackColor = System.Drawing.SystemColors.Control
-        Me.LoadingLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LoadingLabel.Location = New System.Drawing.Point(274, 38)
+        Me.LoadingLabel.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LoadingLabel.Location = New System.Drawing.Point(281, 35)
         Me.LoadingLabel.Name = "LoadingLabel"
-        Me.LoadingLabel.Size = New System.Drawing.Size(102, 13)
+        Me.LoadingLabel.Size = New System.Drawing.Size(77, 15)
         Me.LoadingLabel.TabIndex = 5
-        Me.LoadingLabel.Text = "PLEASE WAIT..."
+        Me.LoadingLabel.Text = "PLEASE WAIT"
         '
         'DatabaseLabel
         '
