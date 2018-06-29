@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ShipmentLE", "Shipment\Ship
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE54731A-6012-42E3-B5DD-EDD002D6AF9C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ShipmentLE Setup", "ShipmentLE Setup\ShipmentLE Setup.vdproj", "{B836010F-0067-4695-8BB3-29317CB390B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{CC0B18B9-8BA2-47C8-99CD-E5FB5B617759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0B18B9-8BA2-47C8-99CD-E5FB5B617759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0B18B9-8BA2-47C8-99CD-E5FB5B617759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B836010F-0067-4695-8BB3-29317CB390B7}.Debug|Any CPU.ActiveCfg = Debug
+		{B836010F-0067-4695-8BB3-29317CB390B7}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -151,7 +151,7 @@ Public Class Generate
     Private Sub LoadFile()
 
         Try
-            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Kreator Kreatif\Save\DatabaseSetup.txt"
+            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Kreator Kreatif\Save\DatabaseSetupShipmentKKI.txt"
             Dim lines() As String
             Dim loadedLines() As String = File.ReadAllLines(fileload)
 

@@ -11,3 +11,21 @@ C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipme
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.exe
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.xml
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ShipmentKKI.exe.config
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ShipmentKKI.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ShipmentKKI.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ShipmentKKI.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Release\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.vbprojAssemblyReference.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.Form1.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Release\ShipmentKKI.pdb

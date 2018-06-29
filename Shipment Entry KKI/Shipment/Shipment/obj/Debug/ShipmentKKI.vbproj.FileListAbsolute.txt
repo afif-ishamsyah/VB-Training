@@ -11,3 +11,21 @@ C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipme
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.exe
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.xml
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ShipmentKKI.exe.config
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ShipmentKKI.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ShipmentKKI.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ShipmentKKI.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\bin\Debug\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.vbprojAssemblyReference.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.Form1.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KKI\Shipment\Shipment\obj\Debug\ShipmentKKI.pdb

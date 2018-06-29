@@ -10,3 +10,21 @@ C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipmen
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.exe
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.xml
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.exe.config
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ShipmentLE.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\bin\Debug\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbprojAssemblyReference.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.Form1.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Debug\ShipmentLE.pdb

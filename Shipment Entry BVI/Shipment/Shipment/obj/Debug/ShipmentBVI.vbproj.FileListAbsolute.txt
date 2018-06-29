@@ -11,3 +11,21 @@ C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry BVI\Shipment\Shipme
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.exe
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.xml
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ShipmentBVI.exe.config
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ShipmentBVI.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ShipmentBVI.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ShipmentBVI.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\bin\Debug\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.vbprojAssemblyReference.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.Form1.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry BVI\Shipment\Shipment\obj\Debug\ShipmentBVI.pdb

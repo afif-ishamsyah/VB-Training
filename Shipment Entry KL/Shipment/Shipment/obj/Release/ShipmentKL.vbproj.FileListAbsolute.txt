@@ -11,3 +11,21 @@ C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KL\Shipment\Shipmen
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.exe
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.xml
 C:\Users\Afif Ishamsyah\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ShipmentKL.exe.config
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ShipmentKL.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ShipmentKL.pdb
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ShipmentKL.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\bin\Release\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.vbprojAssemblyReference.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.Form1.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.exe
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.xml
+C:\Users\SupportIT\Documents\VB Training\Shipment Entry KL\Shipment\Shipment\obj\Release\ShipmentKL.pdb

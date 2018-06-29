@@ -109,20 +109,20 @@ Public Class Generate
 
             OESHI1header.Init()
             OESHI1header.Fields.FieldByName("SHINUMBER").SetValue(dt.Rows(0)(0), False)
-            OESHI1header.Fields.FieldByName("CUSTOMER").SetValue(dt.Rows(0)(5), False)
-            OESHI1header.Fields.FieldByName("PONUMBER").SetValue(dt.Rows(0)(2), False)
+            OESHI1header.Fields.FieldByName("CUSTOMER").SetValue(dt.Rows(0)(4), False)
+            'OESHI1header.Fields.FieldByName("PONUMBER").SetValue(dt.Rows(0)(2), False)
             OESHI1header.Fields.FieldByName("SHIDATE").SetValue(Date.ParseExact(dt.Rows(0)(1).ToString(), "yyyyMMdd", Nothing), False)
-            OESHI1header.Fields.FieldByName("DESC").SetValue(dt.Rows(0)(3), False)
-            OESHI1header.Fields.FieldByName("REFERENCE").SetValue(dt.Rows(0)(4), False)
+            OESHI1header.Fields.FieldByName("DESC").SetValue(dt.Rows(0)(2), False)
+            OESHI1header.Fields.FieldByName("REFERENCE").SetValue(dt.Rows(0)(3), False)
 
             If dt.Rows.Count > 0 Then
                 For i As Integer = 0 To dt.Rows.Count - 1
                     OESHI1detail1.RecordCreate(ViewRecordCreate.NoInsert)
-                    OESHI1detail1.Fields.FieldByName("ITEM").SetValue(dt.Rows(i)(6), False)
-                    OESHI1detail1.Fields.FieldByName("LOCATION").SetValue(dt.Rows(i)(7), False)
-                    OESHI1detail1.Fields.FieldByName("QTYSHIPPED").SetValue(dt.Rows(i)(8), False)
-                    OESHI1detail1.Fields.FieldByName("PRIUNTPRC").SetValue(dt.Rows(i)(10), False)
-                    OESHI1detail1.Fields.FieldByName("SHIUNIT").SetValue(dt.Rows(i)(9), False)
+                    OESHI1detail1.Fields.FieldByName("ITEM").SetValue(dt.Rows(i)(5), False)
+                    OESHI1detail1.Fields.FieldByName("LOCATION").SetValue(dt.Rows(i)(6), False)
+                    OESHI1detail1.Fields.FieldByName("QTYSHIPPED").SetValue(dt.Rows(i)(7), False)
+                    OESHI1detail1.Fields.FieldByName("PRIUNTPRC").SetValue(dt.Rows(i)(9), False)
+                    OESHI1detail1.Fields.FieldByName("SHIUNIT").SetValue(dt.Rows(i)(8), False)
                     OESHI1detail1.Insert()
                 Next
             End If
@@ -151,7 +151,7 @@ Public Class Generate
     Private Sub LoadFile()
 
         Try
-            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Liputan Enam\Save\DatabaseSetup.txt"
+            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Liputan Enam\Save\DatabaseSetupShipmentLE.txt"
             Dim lines() As String
             Dim loadedLines() As String = File.ReadAllLines(fileload)
 

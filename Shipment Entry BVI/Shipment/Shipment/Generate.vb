@@ -151,7 +151,7 @@ Public Class Generate
     Private Sub LoadFile()
 
         Try
-            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Brilio Ventura\Save\DatabaseSetup.txt"
+            Dim fileload As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\Interface Sage\Brilio Ventura\Save\DatabaseSetupShipmentBVI.txt"
             Dim lines() As String
             Dim loadedLines() As String = File.ReadAllLines(fileload)
 
