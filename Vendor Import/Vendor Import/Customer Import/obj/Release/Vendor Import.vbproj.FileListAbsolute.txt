@@ -1,0 +1,19 @@
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\Vendor Import.exe.config
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\Vendor Import.exe
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\Vendor Import.pdb
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\Vendor Import.xml
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\bin\Release\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Interop.VBIDE.dll
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.vbproj.ResolveComReference.cache
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor_Import.VendorImport.resources
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor_Import.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.exe
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.xml
+C:\Users\SupportIT\Documents\VB Training\Vendor Import\Vendor Import\Customer Import\obj\Release\Vendor Import.pdb

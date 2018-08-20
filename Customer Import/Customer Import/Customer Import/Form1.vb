@@ -67,7 +67,7 @@ Public Class CustomerImport
 
     End Sub
 
-    Private Sub CancelButton_Click(sender As Object, e As EventArgs) Handles CancelButton.Click
+    Private Sub CancelButton_Click(sender As Object, e As EventArgs) Handles CancelsButton.Click
         End
     End Sub
 
@@ -81,6 +81,7 @@ Public Class CustomerImport
             mDBLinkCmpRW = session.OpenDBLink(DBLinkType.Company, DBLinkFlags.ReadWrite)
             Dim IDCUST As String = xlWorkSheet.Cells(23, 3).value
 
+            'CUSTOMER------------------------------------------------------------------
             Dim ARCUSTOMER1header As View
             Dim ARCUSTOMER1detail As View
             Dim ARCUSTSTAT2 As View
@@ -120,20 +121,54 @@ Public Class CustomerImport
                 ARCUSTOMER1header.Fields.FieldByName("TEXTSTRE1").SetValue(xlWorkSheet.Cells(31, 3).value, False)
                 ARCUSTOMER1header.Fields.FieldByName("TEXTSTRE2").SetValue(xlWorkSheet.Cells(33, 3).value, False)
                 ARCUSTOMER1header.Fields.FieldByName("TEXTSTRE3").SetValue(xlWorkSheet.Cells(35, 3).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("CODEPSTL").SetValue(xlWorkSheet.Cells(43, 9).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("CODECTRY").SetValue(xlWorkSheet.Cells(43, 3).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("TEXTPHON1").SetValue(xlWorkSheet.Cells(37, 3).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("TEXTPHON2").SetValue(xlWorkSheet.Cells(37, 9).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("EMAIL2").SetValue(xlWorkSheet.Cells(39, 3).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("CTACPHONE").SetValue(xlWorkSheet.Cells(56, 3).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("EMAIL1").SetValue(xlWorkSheet.Cells(58, 9).value, False)
-                ARCUSTOMER1header.Fields.FieldByName("NAMECTAC").SetValue(xlWorkSheet.Cells(52, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("TEXTSTRE4").SetValue(xlWorkSheet.Cells(37, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("CODEPSTL").SetValue(xlWorkSheet.Cells(45, 9).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("CODECTRY").SetValue(xlWorkSheet.Cells(45, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("NAMECITY").SetValue(xlWorkSheet.Cells(43, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("CODESTTE").SetValue(xlWorkSheet.Cells(43, 9).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("TEXTPHON1").SetValue(xlWorkSheet.Cells(39, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("TEXTPHON2").SetValue(xlWorkSheet.Cells(39, 9).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("EMAIL2").SetValue(xlWorkSheet.Cells(41, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("CTACPHONE").SetValue(xlWorkSheet.Cells(75, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("EMAIL1").SetValue(xlWorkSheet.Cells(77, 9).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("NAMECTAC").SetValue(xlWorkSheet.Cells(71, 3).value, False)
+                ARCUSTOMER1header.Fields.FieldByName("IDTAXREGI1").SetValue(xlWorkSheet.Cells(54, 3).value, False)
 
                 ARCUSTOMER1detail.Fields.FieldByName("OPTFIELD").SetValue("CUSTNAME2", False)
                 ARCUSTOMER1detail.Fields.FieldByName("VALIFTEXT").SetValue(xlWorkSheet.Cells(29, 3).value, False)
                 ARCUSTOMER1detail.Insert()
 
                 ARCUSTOMER1header.Insert()
+
+                'SHIPTOLOACTION------------------------------------------------------------------
+
+                Dim ARCUSTSHIP2header As View
+                Dim ARCUSTSHIP2detailFields As View
+
+                ARCUSTSHIP2header = mDBLinkCmpRW.OpenView("AR0023")
+                ARCUSTSHIP2detailFields = mDBLinkCmpRW.OpenView("AR0412")
+
+                ARCUSTSHIP2header.Compose({ARCUSTSHIP2detailFields})
+                ARCUSTSHIP2detailFields.Compose({ARCUSTSHIP2header})
+
+                ARCUSTSHIP2header.Init()
+                ARCUSTSHIP2header.Fields.FieldByName("IDCUST").SetValue(IDCUST, False)
+                ARCUSTSHIP2header.Fields.FieldByName("IDCUSTSHPT").SetValue("NPWP", False)
+                ARCUSTSHIP2header.Fields.FieldByName("NAMELOCN").SetValue(xlWorkSheet.Cells(27, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("TEXTSTRE1").SetValue(xlWorkSheet.Cells(56, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("TEXTSTRE2").SetValue(xlWorkSheet.Cells(58, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("TEXTSTRE3").SetValue(xlWorkSheet.Cells(60, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("TEXTSTRE4").SetValue(xlWorkSheet.Cells(62, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("CODECTRY").SetValue(xlWorkSheet.Cells(45, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("CODESTTE").SetValue(xlWorkSheet.Cells(64, 9).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("NAMECITY").SetValue(xlWorkSheet.Cells(64, 3).value, False)
+                ARCUSTSHIP2header.Fields.FieldByName("CODETERR").SetValue("0" & xlWorkSheet.Cells(66, 3).value, False)
+
+                ARCUSTSHIP2detailFields.Fields.FieldByName("OPTFIELD").SetValue("CUSTNAME2", False)
+                ARCUSTSHIP2detailFields.Fields.FieldByName("VALIFTEXT").SetValue(xlWorkSheet.Cells(29, 3).value, False)
+                ARCUSTSHIP2detailFields.Insert()
+
+                ARCUSTSHIP2header.Insert()
 
                 MsgBox("Customer berhasil ditambah", 0, "Completed")
 
@@ -173,14 +208,14 @@ Public Class CustomerImport
 
     Private Sub EnableButton()
         SearchButton.Enabled = True
-        CancelButton.Enabled = True
+        CancelsButton.Enabled = True
         UploadButton.Enabled = True
         DatabaseBox.Enabled = True
     End Sub
 
     Private Sub DisableButton()
         SearchButton.Enabled = False
-        CancelButton.Enabled = False
+        CancelsButton.Enabled = False
         UploadButton.Enabled = False
         DatabaseBox.Enabled = False
     End Sub

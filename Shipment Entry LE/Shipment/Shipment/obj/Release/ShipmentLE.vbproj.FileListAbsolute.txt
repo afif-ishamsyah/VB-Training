@@ -28,4 +28,3 @@ C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj
 C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Release\ShipmentLE.exe
 C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Release\ShipmentLE.xml
 C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Release\ShipmentLE.pdb
-C:\Users\SupportIT\Documents\VB Training\Shipment Entry LE\Shipment\Shipment\obj\Release\ShipmentLE.vbprojAssemblyReference.cache

@@ -24,7 +24,7 @@ Partial Class CustomerImport
     Private Sub InitializeComponent()
         Me.SearchButton = New System.Windows.Forms.Button()
         Me.SearchDialog = New System.Windows.Forms.OpenFileDialog()
-        Me.CancelButton = New System.Windows.Forms.Button()
+        Me.CancelsButton = New System.Windows.Forms.Button()
         Me.DatabaseBox = New System.Windows.Forms.ComboBox()
         Me.UploadButton = New System.Windows.Forms.Button()
         Me.FileNameTextbox = New System.Windows.Forms.TextBox()
@@ -44,15 +44,15 @@ Partial Class CustomerImport
         Me.SearchButton.Text = "Search File"
         Me.SearchButton.UseVisualStyleBackColor = True
         '
-        'CancelButton
+        'CancelsButton
         '
-        Me.CancelButton.Location = New System.Drawing.Point(290, 92)
-        Me.CancelButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.CancelButton.Name = "CancelButton"
-        Me.CancelButton.Size = New System.Drawing.Size(112, 26)
-        Me.CancelButton.TabIndex = 1
-        Me.CancelButton.Text = "Cancel"
-        Me.CancelButton.UseVisualStyleBackColor = True
+        Me.CancelsButton.Location = New System.Drawing.Point(290, 92)
+        Me.CancelsButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.CancelsButton.Name = "CancelsButton"
+        Me.CancelsButton.Size = New System.Drawing.Size(112, 26)
+        Me.CancelsButton.TabIndex = 1
+        Me.CancelsButton.Text = "Cancel"
+        Me.CancelsButton.UseVisualStyleBackColor = True
         '
         'DatabaseBox
         '
@@ -121,7 +121,7 @@ Partial Class CustomerImport
         Me.Controls.Add(Me.FileNameTextbox)
         Me.Controls.Add(Me.UploadButton)
         Me.Controls.Add(Me.DatabaseBox)
-        Me.Controls.Add(Me.CancelButton)
+        Me.Controls.Add(Me.CancelsButton)
         Me.Controls.Add(Me.SearchButton)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "CustomerImport"
@@ -133,7 +133,7 @@ Partial Class CustomerImport
 
     Friend WithEvents SearchButton As Button
     Friend WithEvents SearchDialog As OpenFileDialog
-    Friend WithEvents CancelButton As Button
+    Friend WithEvents CancelsButton As Button
     Friend WithEvents DatabaseBox As ComboBox
     Friend WithEvents UploadButton As Button
     Friend WithEvents FileNameTextbox As TextBox

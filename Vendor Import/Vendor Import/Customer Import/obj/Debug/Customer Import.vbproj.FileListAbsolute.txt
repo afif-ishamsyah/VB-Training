@@ -1,0 +1,32 @@
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.exe.config
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.exe
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.pdb
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.xml
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbprojAssemblyReference.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer_Import.Form1.resources
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer_Import.Resources.resources
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbproj.GenerateResource.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbproj.CoreCompileInputs.cache
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.exe
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.xml
+C:\Users\Afif Ishamsyah\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.pdb
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.exe.config
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.exe
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.pdb
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\Customer Import.xml
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\ACCPAC.Advantage.dll
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\ACCPAC.Advantage.Server.dll
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\ACCPAC.Advantage.Server.RemotingManager.dll
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\ACCPAC.Advantage.Types.dll
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\bin\Debug\stdole.dll
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer_Import.Resources.resources
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbproj.GenerateResource.cache
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbproj.CoreCompileInputs.cache
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbproj.CopyComplete
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.exe
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.xml
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.pdb
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Interop.VBIDE.dll
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbproj.ResolveComReference.cache
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer_Import.CustomerImport.resources
+C:\Users\SupportIT\Documents\VB Training\Customer Import\Customer Import\Customer Import\obj\Debug\Customer Import.vbprojAssemblyReference.cache
